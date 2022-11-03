@@ -5,8 +5,8 @@
 }
 body{
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),url("../images/main-page/background2.jpg");
-    background-size: 20%;
+    background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)),url("../images/main-page/background2.jpg");
+    background-size: 15%;
     color: var(--maincolor);
 }
 ::-webkit-scrollbar{
@@ -140,4 +140,18 @@ background-color: var(--maincolor-hover);
     text-align: center;
 }
 
+}
+@media (max-width:400px) {
+    #download-btn{
+        padding: 10px 15px;
+    }
+    .game-title{
+        font-size: 46px;
+    }
+    
+ }
+@media (max-width:320px) {
+    .build-info_date{
+        font-size: 28px;
+    }
 }
